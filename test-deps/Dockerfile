@@ -1,6 +1,6 @@
 # Ansible Distro CI Image
 # This bundles most of the tools we use so we dont need to install them in the ci
-FROM circleci/golang:1.10
+FROM circleci/golang:1.17
 
 ENV TASK_VERSION=2.0.1 \
     NVM_VERSION=0.33.5 \
